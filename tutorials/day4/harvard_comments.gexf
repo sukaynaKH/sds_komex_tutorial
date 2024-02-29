@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-02-29">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <nodes>
+      <node id="StandTall29" label="StandTall29" />
+      <node id="HeauxChiMin" label="HeauxChiMin" />
+      <node id="gearity_jnc" label="gearity_jnc" />
+      <node id="steady_spiff" label="steady_spiff" />
+      <node id="natedawg247" label="natedawg247" />
+      <node id="beer_nyc" label="beer_nyc" />
+    </nodes>
+    <edges>
+      <edge source="StandTall29" target="HeauxChiMin" id="0" />
+      <edge source="StandTall29" target="gearity_jnc" id="1" />
+      <edge source="StandTall29" target="steady_spiff" id="2" />
+      <edge source="HeauxChiMin" target="natedawg247" id="3" />
+      <edge source="gearity_jnc" target="steady_spiff" id="4" />
+      <edge source="gearity_jnc" target="beer_nyc" id="5" />
+      <edge source="steady_spiff" target="gearity_jnc" id="6" />
+      <edge source="steady_spiff" target="StandTall29" id="7" />
+      <edge source="natedawg247" target="beer_nyc" id="8" />
+      <edge source="beer_nyc" target="gearity_jnc" id="9" />
+      <edge source="beer_nyc" target="natedawg247" id="10" />
+    </edges>
+  </graph>
+</gexf>

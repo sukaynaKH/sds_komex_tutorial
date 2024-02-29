@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    "StandTall29",
+    "HeauxChiMin",
+    "steady_spiff",
+    "gearity_jnc",
+    "natedawg247",
+    "beer_nyc"
+  ],
+  "edges": [
+    [
+      "StandTall29",
+      "HeauxChiMin"
+    ],
+    [
+      "StandTall29",
+      "gearity_jnc"
+    ],
+    [
+      "StandTall29",
+      "steady_spiff"
+    ],
+    [
+      "HeauxChiMin",
+      "natedawg247"
+    ],
+    [
+      "steady_spiff",
+      "gearity_jnc"
+    ],
+    [
+      "steady_spiff",
+      "StandTall29"
+    ],
+    [
+      "gearity_jnc",
+      "steady_spiff"
+    ],
+    [
+      "gearity_jnc",
+      "beer_nyc"
+    ],
+    [
+      "natedawg247",
+      "beer_nyc"
+    ],
+    [
+      "beer_nyc",
+      "gearity_jnc"
+    ],
+    [
+      "beer_nyc",
+      "natedawg247"
+    ]
+  ]
+}
